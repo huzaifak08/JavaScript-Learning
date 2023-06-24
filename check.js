@@ -1,0 +1,1 @@
+console.log('Checking our First JavaScript Code');
