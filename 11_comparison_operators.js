@@ -11,3 +11,6 @@ console.log('a === c is: ', a === c);   // Compare DataTypes.
 console.log('a !== c is: ', a !== c);
 
 // More Comparison Operators: >, <, >=, <=, ?
+
+// Ternary Operator:
+console.log(a < 6 ? 'You can Drive' : 'You Cannot Drive');
