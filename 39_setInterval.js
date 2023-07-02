@@ -12,4 +12,3 @@ let timerId = setInterval(sum, 3000, 1, 2);
 
 // Clear the Interval:
 clearInterval(timerId);
-
