@@ -1,4 +1,4 @@
-// Promise Then and Catch function: Both promises will execute parallerly
+// Promise Then and Catch handlers: Both promises will execute parallerly
 
 // Promise 1: Resolve
 let p1 = new Promise((resolve, reject) => {
@@ -16,17 +16,17 @@ let p2 = new Promise((resolve, reject) => {
     })
 }, 5000);
 
-// Then:
+// Then Handler:
 p1.then((value) => {
     console.log(value); // true
 })
 
-// Catch:
+// Catch Handler:
 p2.catch((error) => {
     console.log('Some error occoured');
 })
 
-// Both then and catch:
+// Both then and catch Handlers:
 p2.then((value) => {
     console.log(value);
 }, (error) => {
