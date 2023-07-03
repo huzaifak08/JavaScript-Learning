@@ -7,7 +7,7 @@ let p1 = new Promise((resolve, reject) => {
         resolve(56);
     }, 2000);
 
-})
+});
 
 p1.then((value) => {
     console.log(value);
